@@ -4,7 +4,7 @@ import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
 import "../contracts/SupplyChain.sol";
 
-contract TestSupplyChain {
+contract TestSupplyChain {   
 
     // Test for failing conditions in this contracts
     // test that every modifier is working
@@ -13,7 +13,6 @@ contract TestSupplyChain {
 
     // test for failure if user does not send enough funds
     // test for purchasing an item that is not for Sale
-
 
     // shipItem
 
@@ -24,8 +23,4 @@ contract TestSupplyChain {
 
     // test calling the function from an address that is not the buyer
     // test calling the function on an item not marked Shipped
-
-     
-
-
 }
